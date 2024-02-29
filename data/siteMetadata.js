@@ -1,8 +1,8 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
   title: 'Next.js Starter Blog',
-  author: 'Mustafiz Kaifee',
-  headerTitle: 'MustafizKaifee',
+  author: 'Majhar Hussain',
+  headerTitle: 'Majhar Hussain',
   description: 'A blog created with Next.js and Tailwind.css',
   language: 'en-us',
   theme: 'system', // system, dark or light
@@ -11,14 +11,14 @@ const siteMetadata = {
   siteLogo: '/static/images/logo.png',
   socialBanner: '/static/images/twitter-card.png',
   mastodon: 'https://mastodon.social/@mastodonuser',
-  email: 'mustafizkaifee04@gmail.com',
-  github: 'https://github.com/Mustafiz04',
-  twitter: 'https://twitter.com/mustafiz_kaifee',
+  email: 'mjhussain18131@gmail.com',
+  github: 'https://github.com/mjhussain1813',
+  twitter: 'https://twitter.com/',
   facebook: 'https://facebook.com',
   youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com/in/mustafizkaifee',
-  threads: 'https://www.threads.net/mustafizkaifee',
-  instagram: 'https://www.instagram.com/mustafizkaifee/',
+  linkedin: 'https://www.linkedin.com/in/majhar-hussain',
+  threads: 'https://www.threads.net/',
+  instagram: 'https://www.instagram.com//',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the

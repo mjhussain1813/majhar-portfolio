@@ -12,21 +12,15 @@ import { MDXLayoutRenderer } from 'pliny/mdx-components'
 const MAX_DISPLAY = 5
 
 export default function Home({ posts }) {
-  
-const author = allAuthors.find((p) => p.slug === 'default') as Authors
-const mainContent = coreContent(author)
-
+  const author = allAuthors.find((p) => p.slug === 'default') as Authors
+  const mainContent = coreContent(author)
 
   return (
     <>
-
-
-
       <AuthorLayout content={mainContent}>
         <MDXLayoutRenderer code={author.body.code} />
       </AuthorLayout>
-    
-  
+
       {/* <ComingSoon /> */}
       {/* <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pb-8 pt-6 md:space-y-5">
